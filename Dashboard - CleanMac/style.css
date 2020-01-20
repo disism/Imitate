@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    margin: 1rem;
+    background-color: white;
+    /* background-image: url('./image.jpg'); */
+    background-repeat: no-repeat;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: silver;
+}
+
+.page-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* 左侧样式 */
+.left-section {
+    display: flex;
+    flex-direction: column;
+    width: 4rem;
+    height: 100%;
+    padding: 1rem;
+    color: aliceblue;
+    background-color: rgb(161, 163, 250);
+    border-radius: 1rem;
+    text-align: center;
+}
+.menu-list {
+    padding: 4rem 0 4rem 0;
+}
+.menu-list li {
+    margin: 1rem 0 1rem 0;
+}
+/* 点击样式 */
+.menu-active {
+    padding: 1rem;
+    width: 2rem;
+    background-color: #fff;
+    border-radius: 50% 0 0 50%;
+}
+/* 中间布局 */
+.body-section {
+    width: 100%;
+    margin: 0 1rem 0 1rem;
+}
+/* 顶部卡片样式 */
+.body-top-card {
+    width: 100%;
+    height: 7rem;
+    background-color: rgb(253, 200, 53);
+    border-radius: 1rem;
+}
+/* 日期组件 */
+.dec-left {
+    padding: 1rem;
+}
+/* 日期顶部样式 */
+.dec-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.dec-switch {
+    display: inline-block;
+}
+.dec-switch button {
+    border: none;
+    height: 2rem;
+    width: 2rem;
+    background-color: rgb(255, 124, 47);
+}
+/* 日期顶部按钮 */
+.ds-left {
+    border-radius: 50% 0 0 50%;
+}
+.ds-right {
+    border-radius: 0 50% 50% 0;
+}
+/* 日期顶部右侧 */
+.month {
+    padding: 1rem;
+}
+.month-btn {
+    border: none;
+    height: 2rem;
+    width: 6rem;
+    border-radius: .5rem;
+    background-color: rgb(243, 240, 240);
+}
+/* 日期 BODY */
+.dec-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.dec-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    width: 100%;
+}
+.dec-list li {
+    padding: 2rem 1.5rem 2rem 1.5rem;
+}
+/* 日期点击的样式 */
+.dec-active {
+    background-color: rgb(255, 173, 65);
+    border-radius: 1rem;
+    box-shadow: rgb(255, 213, 151) 1px 2px 2rem 3px;
+}
+/* WEELY 样式 */
+.week {
+    margin: 1rem;
+}
+.week-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.week-time {
+    display: flex;
+    flex-direction: row;
+}
+.week-time li {
+    margin-left: 1rem;
+}
+.week-active {
+    font-weight: bold;
+}
+
+.week-block {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.memo-sentaku {
+    border-radius: 1rem;
+    box-shadow: whitesmoke 0 0 .5rem .5rem;
+}
+.week-icon {
+    display: block;
+    margin: 2rem 3rem 2rem 3rem;
+    border: 1px solid steelblue;
+    border-radius: 1rem;
+    text-align: center;
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+}
+.meno-name {
+    margin: 2rem;
+}
+.memo-strong {
+    margin-top: 1rem;
+    text-align: center;
+    padding: .5rem;
+}
+.act-bgc {
+    background-color: rgb(255, 226, 64);
+}
+.click-this {
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(255, 226, 64);
+}
+/* 进度布局 */
+.um-top {
+    margin: 1rem;
+}
+.um-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.um-body li {
+    border-radius: 1rem;
+    box-shadow: whitesmoke 0 0 .5rem .5rem;
+    padding: 2rem;
+    width: 40%;
+}
+.sysfi {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.applictaion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(51, 133, 255);
+}
+.line-hr {
+    margin: 0 1rem 0 1rem;
+    border-right: 1px solid;
+    border-color: steelblue;
+}
+.um-text {
+    bottom: 0;
+}
+.progress-bar {
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(153, 101, 101);
+    border-radius: 50%;
+    box-shadow: yellow 0 0 1rem 0;
+}
+/* 右侧菜单 */
+.right-menu {
+    display: flex;
+    flex: end;
+}
+/* 右侧布局 */
+.right-section {
+    width: 40rem;
+    height: 100%;
+}
+
+/* 右侧菜单 */
+.right-menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.right-menu li {
+    padding: 1rem;
+    border: 1px solid sienna;
+    margin-left: 1rem;
+}
+/* 右侧底部样式 */
+.other-card {
+    background-color: rgb(241, 233, 233);
+    border-radius: 1rem 0 0 1rem;
+    margin-top: 3rem;
+    padding: 1rem;
+}
+/* 右侧顶部卡片 */
+.right-top {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.of-b {
+    margin-bottom: 2rem;
+}
+.right-top-card {
+    flex: 1;
+    border-radius: 1rem;
+    background-color: #fff;
+    margin: 1rem;
+}
+
+.rtc-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: .3rem;
+    border-radius: 1rem;
+}
+.rt-red {
+    background-color: rgb(255, 156, 117);
+}
+.rt-icon {
+    margin: .5rem;
+    padding: .5rem;
+    border: 1px solid rgb(231, 88, 31);
+    border-radius: .8rem;
+    background-color: rgb(173, 119, 97);
+}
+
+.rt-icon-right {
+    margin: .5rem;
+    padding: .5rem;
+}
+
+.rt-yellow {
+    background-color: rgb(252, 248, 32);
+}
+
+.rt-akua {
+    background-color: aqua;
+}
+.rt-mashwrite {
+    background-color: whitesmoke;
+}
+
+.rtc-text {
+    margin: 1rem;
+}
+
+.rtc-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+}
+
+.right-top-switch {
+    margin: 1rem 0 0 0;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 2rem;
+    height: 1rem;
+}
+
+.switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: .5rem;
+    width: .5rem;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(1rem);
+    -ms-transform: translateX(1rem);
+    transform: translateX(1rem);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 2rem;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* 右侧底部样式 */
+.r-title {
+    margin: 1rem;
+}
+.bottom-cardbox {
+    border-radius: 1rem;
+    box-shadow: aliceblue 0 0 .5rem .5rem;
+    padding: 1rem;
+}
+
+.bottom-card-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bct-right-button {
+    border: 1px solid yellowgreen;
+    border-radius: 1rem;
+    padding: .3rem;
+}
+.brb {
+    border: none;
+    padding: 1rem;
+    border-radius: .8rem;
+}
+.brb-active {
+    background-color: rgb(250, 238, 75);
+}
+
+.bcb-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bcb-bgc {
+    display: block;
+    width: 0.7rem;
+    height: 10rem;
+    border-radius: 1frrem;
+    background-color: yellow;
+}
+.bcb-span {
+    display: block;
+    width: .5rem;
+    height: 9.5rem;
+    line-height: 10rem;
+    border-radius: 1rem;
+    background-color: aqua;
+}
+
+.cbc-footer-text {
+    display: block;
+}
+
+.bcb-active {
+    background-color: orange;
+}
