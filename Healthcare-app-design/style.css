@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style: none;
+}
+
+.leftblock {
+    width: 50vw;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 5rem;
+    line-height: 5rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+.right-icon {
+    width: 5rem;
+    text-align: center;
+    border-radius: 2rem;
+    background-color: rgb(202, 165, 165);
+}
+
+.miduc {
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.main {
+    background-color: rgb(248, 248, 248);
+    padding: 1rem;
+}
+
+.icon-group {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 0 1rem 0;
+}
+
+.list-icon {
+    padding: 1rem;
+    background-color: antiquewhite;
+    border: .2rem solid sienna;
+    border-radius: 50%;
+}
+.add-icon {
+    width: 1.8rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: rgb(128, 213, 235);
+    border-radius: 1.4rem;
+}
+
+.mdicine {
+    padding: 1rem;
+}
+.med-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 1rem 0 1rem 0;
+}
+.med-main-card {
+    background-color: #fff;
+    border-radius: 1rem;
+    box-shadow: rgb(231, 231, 231) 0 0 10px 1px;
+    margin-bottom: 1rem;
+}
+.mmc-section {
+    display: flex;
+    flex-direction: row;
+}
+.ms-body {
+    margin-left: 1rem;
+}
+.mmc-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+    padding: 1rem;
+}
+.mmc-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    border-top: 1px solid silver;
+    padding: 1rem;
+}
+.mmc-footer span{
+    padding: .3rem;
+    border-radius: 50%;
+}
+.mmc-footer section {
+    margin-right: 1rem;
+}
+.mmcf-icon {
+    background-color: rgb(255, 229, 145);
+}
+.mmcf-icon-2 {
+    background-color: rgb(255, 225, 58);
+}
+
+.upload-section {
+    display: flex;
+    flex-direction: row;
+}
+.upload {
+    padding: 1rem;
+    background-color: rgb(0, 102, 255);
+    border-radius: 1rem;
+    border: none;
+    margin-right: 1rem;
+    width: 50vw;
+}
+.edit {
+    width: 3.3rem;
+    padding: 1rem;
+    background-color: rgb(255, 129, 244);
+    border-radius: 1rem;
+    border: none;
+}
+
+/* right */
+.rightblock {
+    width: 50vw;
+}
+.r-m {
+    background-color: rgb(248, 248, 248);
+    padding: 1rem;
+    border-radius: 0 0  1rem 1rem;
+}
+
+.right-body {
+    background-color: rgb(50, 48, 170);
+}
+
+.r-top-button-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.r-top-button {
+    width: 3rem;
+    height: .5rem;
+    border-radius: 1rem;
+    background-color: rgb(97, 97, 97);
+}
+.blue-se {
+    color: snow;
+    padding: 1rem;
+}
+.uf-btn {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1rem;
+}
+.uf-btn-style {
+    border: none;
+    border-radius: 3rem;
+    height: 3rem;
+    width: 6rem;
+    background-color: rgb(236, 128, 128);
+    margin-right: 1rem;
+}
+.uf-p {
+    line-height: 3rem;
+}
+.med-input {
+    padding: 1rem;
+    color: snow;
+}
+.input-style {
+    width: 100%;
+    height: 3rem;
+    border-radius: .5rem;
+    border: none;
+    background-color: rgb(114, 151, 253);
+}
+
+.medicine-icon-list {
+    padding: 1rem;
+    color: snow;
+}
+.r-icon{
+    display: flex;
+    flex-direction: row;
+}
+.r-icon li {
+    padding: 1rem;
+    background-color: rgb(161, 69, 69);
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+
+.med-btn-group {
+    color: snow;
+    padding: 1rem;
+}
+
+.mbg-list button {
+    border: none;
+    background-color: #965eff;
+    padding: 0 1rem 0 1rem;
+    height: 3rem;
+    border-radius: 1rem;
+}
+.save-b {
+    padding: 1rem;
+    color: snow;
+}
+.savenow {
+    color: white;
+    background-color: rgb(140, 141, 99);
+    border: none;
+    border-radius: 1rem;
+    height: 3rem;
+    width: 100%;
+}
