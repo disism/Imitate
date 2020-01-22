@@ -32,7 +32,7 @@ body {
 .card-group-section {
     display: flex;
     flex-direction: row;
-    overflow-x: scroll;
+    overflow-x: auto;
     white-space: nowrap;
 }
 .card-group {
