@@ -1,0 +1,201 @@
+body {
+    margin: 0;
+}
+
+.header {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.avatar {
+    padding: 1rem;
+    height: 2rem;
+    width: 2rem;
+    text-align: center;
+    line-height: 2rem;
+    background-color: rgb(221, 255, 30);
+    border-radius: 50%;
+}
+.search {
+    padding: 1rem;
+}
+.header-search {
+    width: 100%;
+    background-color: silver;
+    border: none;
+    height: 3rem;
+    border-radius: .5rem;
+    text-indent: 10px;
+}
+.card-group-section {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+    white-space: nowrap;
+}
+.card-group {
+    padding: 1rem;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 1rem;
+    padding: 1rem;
+    width: 10rem;
+    height: 10rem;
+}
+.c-y {
+    background-color: rgb(255, 251, 41);
+}
+.c-g {
+    background-color: rgb(45, 255, 25);
+}
+.cg-text-b {
+    display: block;
+    font-weight: bold;
+}
+
+.invitation {
+    padding: 1rem;
+}
+.inv-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(207, 219, 231);
+    height: 4rem;
+}
+.inv-span-icon {
+    line-height: 4rem;
+}
+.inv-header-text-b {
+    font-weight: bold;
+}
+.il-h {
+    margin: 1rem;
+}
+.mt {
+    padding: 1rem;
+}
+.index-list-icon {
+    padding: 1rem;
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(235, 224, 224);
+}
+.mt-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.mt-icon {
+    display: flex;
+    flex-direction: row;
+}
+.mt-icon span {
+    padding: 1rem;
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    border-radius: 50%;
+    background-color: rgb(235, 224, 224);
+}
+.mt-i-r {
+    position: relative;
+    left: -1.5rem;
+}
+.mt-h-text-b {
+    font-weight: bold;
+}
+.main-header img {
+    width: 100%;
+}
+.exit {
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    width: 2rem;
+    height: 2rem;
+    background-color: rgb(208, 255, 0);
+    padding: 1rem;
+    border-radius: 50%;
+    line-height: 2rem;
+    text-align: center;
+}
+.main-body {
+    position: relative;
+    top: -50px;
+    border-radius: 2rem 2rem 0 0;
+    background-color: #fff;
+    padding-right: 1rem;
+    padding: 1rem;
+}
+.sp {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.sp span {
+    width: 5rem;
+    height: .5rem;
+    border-radius: 1rem;  
+    background-color: rgb(168, 168, 168);
+    margin-bottom: 1rem;
+}
+
+.mb-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: rgb(221, 221, 221);
+    border-radius: 1rem;
+}
+.add-icon {
+    width: 2rem;
+    height: 2rem;
+    color: white;
+    background-color: green;
+    padding: 1rem;
+    border-radius: 50%;
+    line-height: 2rem;
+    text-align: center;
+    box-shadow: black 1px 5px 20px 3px;
+}
+.mb-sp {
+    position: relative;
+    top: 1rem;
+}
+
+.ot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.otic {
+    padding: 1rem;
+}
+.ava-icon {
+    padding: 1rem;
+    height: 2rem;
+    width: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    background-color: rgb(255, 242, 183);
+    border-radius: 50%;
+}
+.ot-t-b {
+    font-weight: bold;
+}
+.ot-se {
+    padding: 1rem;
+}
